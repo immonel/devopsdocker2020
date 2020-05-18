@@ -1,0 +1,11 @@
+❯ docker run --rm -v $(pwd)/ex8.txt:/usr/app/logs.txt devopsdockeruh/first_volume_exercise
+
+Mon, 18 May 2020 13:14:36 GMT
+Mon, 18 May 2020 13:14:39 GMT
+Mon, 18 May 2020 13:14:42 GMT
+Mon, 18 May 2020 13:14:45 GMT
+Secret message is:
+"Volume bind mount is easy"
+Mon, 18 May 2020 13:14:51 GMT
+Mon, 18 May 2020 13:14:54 GMT
+Mon, 18 May 2020 13:14:57 GMT

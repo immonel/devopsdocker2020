@@ -1,4 +1,5 @@
 $ docker ps -a
+
 CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                     PORTS               NAMES
 8e16b3d533a8        nginx               "nginx -g 'daemon of…"   5 minutes ago       Up 5 minutes               80/tcp              elastic_villani
 db606d682184        nginx               "nginx -g 'daemon of…"   5 minutes ago       Exited (0) 5 minutes ago                       silly_hofstadter
