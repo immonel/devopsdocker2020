@@ -1,0 +1,15 @@
+❯ docker run -d devopsdockeruh/exec_bash_exercise
+f135f37b9d3a83c6ee6923d3a462fbfedfa6507eed619bf9684cb81047f8dfac
+
+❯ docker ps -a
+CONTAINER ID        IMAGE                               COMMAND             CREATED             STATUS              PORTS               NAMES
+f135f37b9d3a        devopsdockeruh/exec_bash_exercise   "node index"        9 seconds ago       Up 9 seconds                            eloquent_joliot
+
+❯ docker exec f1 tail -f ./logs.txt
+Mon, 18 May 2020 00:18:21 GMT
+Mon, 18 May 2020 00:18:24 GMT
+Mon, 18 May 2020 00:18:27 GMT
+Mon, 18 May 2020 00:18:30 GMT
+Secret message is:
+"Docker is easy"
+
